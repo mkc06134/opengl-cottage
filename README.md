@@ -16,25 +16,6 @@ A 3D OpenGL scene rendered using Python, featuring a textured cottage interior c
 - **Left Arrow**: Rotate camera left
 - **Right Arrow**: Rotate camera right
 
-## Project Structure
-opengl-cottage-scene/
-├── src/
-│ └── a4.py
-├── shaders/
-│ ├── shader.vert
-│ └── shader.frag
-├── assets/
-│ ├── meshes/
-│ │ └── *.ply
-│ └── textures/
-│ └── *.bmp
-├── screenshots/
-│ ├── screenshot1.png
-│ ├── screenshot2.png
-│ └── screenshot3.png
-├── requirements.txt
-└── README.md
-
 
 ## Setup
 
@@ -55,4 +36,5 @@ Rendered views of the cottage interior can be found in the screenshots/ folder.
 
 ## Notes
 All mesh and texture files must remain in their respective directories for the program to run correctly.
+
 The project focuses on graphics programming concepts including transformation matrices, texture mapping, and shader pipelines.
